@@ -1,0 +1,10 @@
+Run 1-25
+Idle 405-570
+Attack 160-185
+Dash 185-225
+AttackAfterRun 230-260
+TakeShield 265-270
+ShieldForward 276-292
+Death 295-325
+Cast Spell 330-350
+

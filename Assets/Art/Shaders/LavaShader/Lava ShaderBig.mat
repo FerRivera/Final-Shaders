@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Lava ShaderBig
+  m_Shader: {fileID: 4800000, guid: 0f553665e6e01434882b516a6f4bf0c6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _LavaTexture
+      second:
+        m_Texture: {fileID: 2800000, guid: 824a265d3e75338428d7eaf39238a61e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Lava_Flowmap
+      second:
+        m_Texture: {fileID: 2800000, guid: fbe7f7a608dcdd940a0ded2ecd039e6e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Lava_Normals
+      second:
+        m_Texture: {fileID: 2800000, guid: 6b80e4532080caf478c6c019a30efe9f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Lava_occlusion
+      second:
+        m_Texture: {fileID: 2800000, guid: 1c82dc05690e05641b533502e2b4b5ac, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Noise
+      second:
+        m_Texture: {fileID: 2800000, guid: 0707a98e29d709e45b4c75f8a207f485, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Noise2
+      second:
+        m_Texture: {fileID: 2800000, guid: 0707a98e29d709e45b4c75f8a207f485, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Noise3
+      second:
+        m_Texture: {fileID: 2800000, guid: 0351fef2d126101459ef3305420802d4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Ramp
+      second:
+        m_Texture: {fileID: 2800000, guid: bea29bb3993391946b5484994271b9dc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _TextureSample0
+      second:
+        m_Texture: {fileID: 2800000, guid: 0707a98e29d709e45b4c75f8a207f485, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _TextureSample1
+      second:
+        m_Texture: {fileID: 2800000, guid: 0351fef2d126101459ef3305420802d4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _TextureSample2
+      second:
+        m_Texture: {fileID: 2800000, guid: a08960dd6e8274e7f8fca616e09c48ed, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Waves
+      second:
+        m_Texture: {fileID: 2800000, guid: 4fc4808af7de23043869c9a4e51fc9c8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _texcoord
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Displacement
+      second: 0.5189502
+    - first:
+        name: _Float0
+      second: 2.0021188
+    - first:
+        name: _LavaIntensity
+      second: 1
+    - first:
+        name: _Tesellation
+      second: 4.811299
+    - first:
+        name: _TessMax
+      second: 25
+    - first:
+        name: _TessMin
+      second: 10
+    - first:
+        name: _TessPhongStrength
+      second: 0.49
+    - first:
+        name: _TessValue
+      second: 4
+    - first:
+        name: __dirty
+      second: 0
+    m_Colors: []

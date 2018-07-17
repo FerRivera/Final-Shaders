@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &141166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 442158}
+  - component: {fileID: 11497930}
+  - component: {fileID: 11406542}
+  - component: {fileID: 11490712}
+  - component: {fileID: 114972537620581706}
+  m_Layer: 0
+  m_Name: Inventory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &442158
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141166}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 862.57776, y: 317.73712, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11406542
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd1d97245490ce49b171d3fce7bcc12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  database: {fileID: 0}
+  slotPanel2: {fileID: 0}
+  slotPanelSecondary: {fileID: 0}
+  popUpText: {fileID: 0}
+  inventorySlot: {fileID: 155594, guid: 04313cb7499109640929211f7f1851f5, type: 2}
+  inventoryItem: {fileID: 155526, guid: ba4619acd5a83da42bf3f12f5e8b8478, type: 2}
+  tooltip: {fileID: 0}
+  shop: {fileID: 0}
+  slotAmount: 24
+  slotAmountSecondaryInv: 42
+  slots: []
+  q: {fileID: 0}
+  e: {fileID: 0}
+  r: {fileID: 0}
+  damage: {fileID: 0}
+  gold: {fileID: 0}
+  health: {fileID: 0}
+  defence: {fileID: 0}
+  textNoMoreInv: {fileID: 0}
+  hero: {fileID: 0}
+  numberOfItemsInInv: 0
+  numberOfItemsInInvSecondary: 0
+--- !u!114 &11490712
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59402c28047081e4dac3574cf52923d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11497930
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f27e33716e8d1747a58c4533cab904b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 141166}
+  m_IsPrefabParent: 1
+--- !u!114 &114972537620581706
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5b818ece195eb643b1c7aed71cbf407, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  database: {fileID: 0}
+  inventoryPanel: {fileID: 0}
+  popUpText: {fileID: 0}
+  inventorySlot: {fileID: 1028581678209602, guid: 8ad20303ab23256458410c9cd3505aa0,
+    type: 2}
+  inventoryItem: {fileID: 155526, guid: ba4619acd5a83da42bf3f12f5e8b8478, type: 2}
+  tooltip: {fileID: 0}
+  slotAmount: 0
+  slotAmountSecondaryInv: 0
+  slots:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  textNoMoreInv: {fileID: 0}
+  hero: {fileID: 0}
+  numberOfItemsInInv: 0
+  idAuthorized: 0
+  amountForThisId: 0
+  successRate: {fileID: 0}
+  successRateFloat: 0
+  idItemResiduo: 9
+  ForgeLayout: {fileID: 0}

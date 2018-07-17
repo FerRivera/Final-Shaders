@@ -1,0 +1,9 @@
+0 - 25  > Walk
+30 - 90 > Attack right hand
+95 - 140 > Attack left hand
+145 - 160 > Prepare Chase (se pone en posicion no se si te sirve pero la hice por las dudas)
+165 - 190 > Run en chase
+195 - 225 > Cuando termina el chase y se choca contra algo
+230 - 360 > Idle
+365 - 425 > Death 
+430 - 485 > AoE Skill

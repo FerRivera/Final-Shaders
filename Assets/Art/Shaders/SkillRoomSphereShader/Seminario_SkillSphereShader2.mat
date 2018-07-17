@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Seminario_SkillSphereShader2
+  m_Shader: {fileID: 4800000, guid: 71b0a5f34296ab7429f1a52a1714496f, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _Noise1
+      second:
+        m_Texture: {fileID: 2800000, guid: 289657d0aedacd64f9f16602b1add2bc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Noise2
+      second:
+        m_Texture: {fileID: 2800000, guid: 6b98540d12b2973498bfbb3f7f65c13b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Noise3
+      second:
+        m_Texture: {fileID: 2800000, guid: 0351fef2d126101459ef3305420802d4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _texcoord
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Bias
+      second: -0.07
+    - first:
+        name: _ChromaticAberration
+      second: 0
+    - first:
+        name: _MaskClipValue
+      second: 0.5
+    - first:
+        name: _Opacity
+      second: -2.26
+    - first:
+        name: _Power
+      second: 4
+    - first:
+        name: _Refraction
+      second: -5.61
+    - first:
+        name: _Scale
+      second: 12
+    - first:
+        name: __dirty
+      second: 0
+    m_Colors:
+    - first:
+        name: _SphereCollor
+      second: {r: 0.30839077, g: 0.56985444, b: 0.6764706, a: 1}
+    - first:
+        name: _SphereColor
+      second: {r: 0.30839074, g: 0.56985444, b: 0.6764706, a: 1}

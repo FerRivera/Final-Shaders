@@ -1,0 +1,4 @@
+245 - 270 > run
+275 - 290 > explosive mode
+300 - 325 > death 
+330 - 390 > idle

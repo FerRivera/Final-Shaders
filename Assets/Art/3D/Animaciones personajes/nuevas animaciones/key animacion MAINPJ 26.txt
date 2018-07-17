@@ -1,0 +1,7 @@
+combo largo 800-835, 
+02 combo largo 840-865, 
+03 combo largo 870 - 905
+
+combo corto 800-809, 
+02 combo corto 840-849
+03 combo corto 870-880

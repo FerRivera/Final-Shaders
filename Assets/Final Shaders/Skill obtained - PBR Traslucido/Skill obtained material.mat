@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Skill obtained material
+  m_Shader: {fileID: 4800000, guid: 23a5c26835aa2d44aabb7d3ca7249e39, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _TextureSample0
+      second:
+        m_Texture: {fileID: 2800000, guid: 5170c7a696920414fb7854d260f37e43, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _TextureSample1
+      second:
+        m_Texture: {fileID: 2800000, guid: 4172b904e41638442be3a2a3f4044f5b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _TextureSample2
+      second:
+        m_Texture: {fileID: 2800000, guid: 27ec5d4acb843f246a0d5782805bcbe1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _TextureSample3
+      second:
+        m_Texture: {fileID: 2800000, guid: 32c0608db4491694e98e67c728c2e71b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _TextureSample4
+      second:
+        m_Texture: {fileID: 2800000, guid: dc24ee72c3d4ddf42841cd984bf7438b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _TextureSample5
+      second:
+        m_Texture: {fileID: 2800000, guid: 0e651dd5d457e8d44b64de6163215400, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _texcoord
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Float0
+      second: 3.61
+    - first:
+        name: _Metallic
+      second: 0
+    - first:
+        name: _Opacity
+      second: 3
+    - first:
+        name: _Smoothness
+      second: 0
+    - first:
+        name: _TessMax
+      second: 0
+    - first:
+        name: _TessMin
+      second: 0
+    - first:
+        name: _TessValue
+      second: 1
+    - first:
+        name: _TransAmbient
+      second: 0.2
+    - first:
+        name: _TransDirect
+      second: 1
+    - first:
+        name: _TransNormalDistortion
+      second: 0.1
+    - first:
+        name: _TransScattering
+      second: 2
+    - first:
+        name: _TransShadow
+      second: 0.9
+    - first:
+        name: _Translucency
+      second: 1
+    - first:
+        name: __dirty
+      second: 0
+    m_Colors:
+    - first:
+        name: _Vector0
+      second: {r: 0, g: 0, b: 0, a: 0}

@@ -1,0 +1,5 @@
+0-24 Caminata
+30-75 Ataque basico
+110-135 idle
+140-180 Skill(Tornado)
+200-225 Death

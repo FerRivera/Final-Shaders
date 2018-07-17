@@ -1,0 +1,8 @@
+SBowShoot 190-240
+5-30 Run
+35-55 Ataque(Sin espada)
+60-80 Ataque(Con espada)
+85-105 GetHit
+110-150 Spawn
+155-180 Muerte
+El resto son igual al esqueleto melee.

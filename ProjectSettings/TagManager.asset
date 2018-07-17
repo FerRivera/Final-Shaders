@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - defaultCursor
+  - inventoryCursor
+  - Fire
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - MinotaurCharge
+  - Hero
+  - Skill
+  - Map
+  - Enemy
+  - EnemyWeapon
+  - Sword
+  - IgnorePlayer
+  - Trigger
+  - aim
+  - Wall
+  - Floor
+  - EnemyRangeWeapon
+  - ShieldLayer
+  - MiniMap
+  - MiniMapFog
+  - Boss
+  - BossMinotaurWeapon
+  - Pickeable
+  - Portal
+  - LightIgnore
+  - PickupSkill
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Particles
+    uniqueID: 940107007
+    locked: 0

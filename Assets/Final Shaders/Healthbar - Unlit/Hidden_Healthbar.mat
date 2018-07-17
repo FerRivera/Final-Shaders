@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Hidden_Healthbar
+  m_Shader: {fileID: 4800000, guid: cb4371ba808c04c418f2578fe10a06b3, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BloodTexture
+      second:
+        m_Texture: {fileID: 2800000, guid: ade0094e3c8a12d4090d1304012deefe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BloodTexture2
+      second:
+        m_Texture: {fileID: 2800000, guid: d5048b4c4ecd92545bb99733aa82d4ce, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BloodTexture3
+      second:
+        m_Texture: {fileID: 2800000, guid: a626f9892cc1a1e448c9cfc391e3fe76, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Mask
+      second:
+        m_Texture: {fileID: 2800000, guid: 7bf7b9a33a2cb6a45b46e4f6d2fd05b1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Noise
+      second:
+        m_Texture: {fileID: 2800000, guid: 70cacf7abc9e39348b2772422c6913ba, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Noise1
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Noise2
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Noise3
+      second:
+        m_Texture: {fileID: 2800000, guid: 70cacf7abc9e39348b2772422c6913ba, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Brigthness
+      second: 1.5
+    - first:
+        name: _BubblesSpeed
+      second: 0.5
+    - first:
+        name: _LerpSpeedNoise1and2
+      second: 1
+    - first:
+        name: _Noise3Speed
+      second: 0.1
+    - first:
+        name: _NoiseSpeed
+      second: 0.2
+    - first:
+        name: _Texture2Speed
+      second: 0.5
+    - first:
+        name: _XRange
+      second: 0
+    - first:
+        name: _YRange
+      second: 0.9
+    m_Colors: []

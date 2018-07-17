@@ -1,0 +1,8 @@
+Hero_Injury 1,2y3
+
+Aplicar el gemido en cada golpe que recibe el Heroe
+produciria el audio de una peli porno en tiempo real
+
+Una implementacion posible:
+Si recibe un impacto -> emite de forma random un Hero_Injury
+Luego de reproducir un Hero_Injury no puede reproducir otro por los proximos 3 seg.

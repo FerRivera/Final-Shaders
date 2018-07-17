@@ -1,0 +1,4 @@
+Vasijas 1,2,3,4:
+
+Al romper una vasija se repruduce 
+random cualquiera de los 4 sonidos

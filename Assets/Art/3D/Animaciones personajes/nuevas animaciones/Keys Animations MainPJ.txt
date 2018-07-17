@@ -1,0 +1,20 @@
+Stand(Pose T): 0
+Run: 5-29
+Attack1Complete: 35-59
+Attack1FirstSlash: 35-50
+Attack2Complete: 75-95
+Attack3Complete: 115-160 / 180 para que termine parado
+EquipShield: 190-195
+WalkWithShieldBackWards: 195-225
+WalkWithShieldForward: 230-260
+Idle: 265-400
+CastLeftHand(Spell): 405-445
+DashForward: 450-500
+DashRight:505-550
+DashLeft: 560-605
+DashBackward: 605-642
+DashForwardShieldBash: 645-690
+Death: 695-740
+Being Hit: 750-780
+
+

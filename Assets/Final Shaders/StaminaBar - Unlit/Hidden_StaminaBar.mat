@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Hidden_StaminaBar
+  m_Shader: {fileID: 4800000, guid: f1bd917303187aa40b1afa9f0b3f187d, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _Bubbles
+      second:
+        m_Texture: {fileID: 2800000, guid: ba7eafbb4355d5a4d84a69a9c12d04fa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Bubles
+      second:
+        m_Texture: {fileID: 2800000, guid: ba7eafbb4355d5a4d84a69a9c12d04fa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _HorizontalLines
+      second:
+        m_Texture: {fileID: 2800000, guid: 03c18cce5e1c35d46823144053ab3498, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _HorizontalLines2
+      second:
+        m_Texture: {fileID: 2800000, guid: ba7eafbb4355d5a4d84a69a9c12d04fa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Mask
+      second:
+        m_Texture: {fileID: 2800000, guid: 931521cd0e535ec449c35d3bceba238a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _NoiseLines
+      second:
+        m_Texture: {fileID: 2800000, guid: 9b63473c4d909a24bb9b5aff9dc5a8ba, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _NoiseLines2
+      second:
+        m_Texture: {fileID: 2800000, guid: 9b63473c4d909a24bb9b5aff9dc5a8ba, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _LinesLerp
+      second: 1
+    m_Colors: []

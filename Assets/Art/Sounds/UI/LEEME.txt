@@ -1,0 +1,33 @@
+-Button 1 Se aplica en:
+
+.Shop:
+
+Boton Buy
+(Cuando no puedo comprar,sin oro/espacio)
+(cuando no hay nada en el Buy Slot)
+
+Boton Sell
+(Cuando no hay nada en el Sell Slot)
+
+
+-Button 2 Se aplica en:
+
+botones de la escena Menu
+
+..................................
+
+General_DragItem
+
+Se usa cuando pickeas para dragear 
+cualquier item, skill o gema, en todos los casos.
+
+..................................
+
+General_ToPlace-a-PickedUpItem
+
+cuando en el "Inventario" soltas dentro de "la grilla"
+un item que estes drageando
+
+Cuando Soltas dentro del "Sell Slot" del "Shop"
+un item que estes drageando
+
