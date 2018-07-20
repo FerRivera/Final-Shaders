@@ -31,25 +31,9 @@ public class VesselsFXManager : MonoBehaviour
 
 	void LateUpdate ()
     {
-        if (Input.GetKeyDown(KeyCode.Z) && !vesselsFXActivated)
+        if (CameraPostProcessManager.lifeShaderActivated)
         {
-            _camera.renderingPath = RenderingPath.Forward;
-            postProcessProfile.enabled = false;
-            vesselsFXActivated = true;
-            ZPressed = true;
-        }
-        else if(Input.GetKeyDown(KeyCode.Z) && vesselsFXActivated)
-        {                      
             vesselsFXActivated = false;
-        }
-
-
-        if (vesselsFXActivated)
-        {
-            VesselsFX(1, lerpVesselsSpeed);
-        }            
-        else if(ZPressed && !vesselsFXActivated)
-        {
             if (_lerpValue <= 0.1f) //para que las vacijas desaparescan de a poco
             {
                 _camera.renderingPath = RenderingPath.DeferredShading;
@@ -57,7 +41,34 @@ public class VesselsFXManager : MonoBehaviour
             }
             VesselsFX(0, lerpVesselsSpeed);
         }
-            
+        else
+        {
+            if (Input.GetKeyDown(KeyCode.Z) && !vesselsFXActivated)
+            {
+                _camera.renderingPath = RenderingPath.Forward;
+                postProcessProfile.enabled = false;
+                vesselsFXActivated = true;
+                ZPressed = true;
+            }
+            else if (Input.GetKeyDown(KeyCode.Z) && vesselsFXActivated)
+            {
+                vesselsFXActivated = false;
+            }
+
+            if (vesselsFXActivated)
+            {
+                VesselsFX(1, lerpVesselsSpeed);
+            }
+            else if (ZPressed && !vesselsFXActivated)
+            {
+                if (_lerpValue <= 0.1f) //para que las vacijas desaparescan de a poco
+                {
+                    _camera.renderingPath = RenderingPath.DeferredShading;
+                    postProcessProfile.enabled = true;
+                }
+                VesselsFX(0, lerpVesselsSpeed);
+            }
+        }
 
         _camera.backgroundColor = backgroundColor;
         //Obtenemos una RT Temporaria

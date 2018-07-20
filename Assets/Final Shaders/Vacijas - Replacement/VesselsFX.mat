@@ -36,5 +36,5 @@ Material:
     m_Floats:
     - first:
         name: _Lerp
-      second: 1
+      second: 0
     m_Colors: []

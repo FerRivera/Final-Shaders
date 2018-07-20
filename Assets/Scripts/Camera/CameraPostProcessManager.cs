@@ -10,6 +10,7 @@ public class CameraPostProcessManager : MonoBehaviour
     public float healthPercent;
     public float healthToActivateShader;
     public float stunEffectSpeed;
+    public static bool lifeShaderActivated;
     
     //public float currentGreyscale;
     //float _greyScaleTotal;
@@ -18,6 +19,7 @@ public class CameraPostProcessManager : MonoBehaviour
     {
         cpp = GetComponent<CameraPostProceso>();
         cpp.enabled = false;
+        lifeShaderActivated = false;
         hero = Finder.Instance.hero;
         spp.material.SetFloat("_MaskRange", 1);
         EventsManager.SubscribeToEvent(EventsType.minotaurStunn, heroStunnedEffectCoRoutineStarter);
@@ -30,7 +32,11 @@ public class CameraPostProcessManager : MonoBehaviour
         //healthToActivateShader3 = hero.maxHealth * healthPercent3 / 100;
 
         if (hero.health > healthToActivateShader)
+        {
             cpp.enabled = false;
+            lifeShaderActivated = false;
+        }
+            
         //else if (hero.health <= healthToActivateShader1 && hero.health >= healthToActivateShader2)
         //{
         //    cpp.enabled = true;
@@ -48,6 +54,7 @@ public class CameraPostProcessManager : MonoBehaviour
         {
             //int value = 50;
             //int newValue = Mathf.Lerp(-10, 10, Mathf.InverseLerp(0, 100, value));
+            lifeShaderActivated = true;
             cpp.enabled = true;
             cpp.material.SetFloat("_MaskRange", hero.health);
             cpp.material.SetFloat("_GreyRange", 0.4f);
