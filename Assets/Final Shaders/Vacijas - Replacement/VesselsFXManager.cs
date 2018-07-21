@@ -39,7 +39,8 @@ public class VesselsFXManager : MonoBehaviour
                 _camera.renderingPath = RenderingPath.DeferredShading;
                 postProcessProfile.enabled = true;
             }
-            VesselsFX(0, lerpVesselsSpeed);
+            postEffectMaterial.SetFloat("_Lerp", 0);
+            //VesselsFX(0, lerpVesselsSpeed);
         }
         else
         {
